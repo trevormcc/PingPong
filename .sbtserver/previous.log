@@ -1,0 +1,1048 @@
+New log file opened at Tue Feb 21 10:04:01 GMT 2017 by 10264@TMCCULLOUGH450
+jvm 10264@TMCCULLOUGH450
+jvm vmName=Java HotSpot(TM) Client VM vmVendor=Oracle Corporation vmVersion=25.112-b15
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=C:\Users\tmccullough\dev\PingPong
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory C:\Users\tmccullough\dev\PingPong\project
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\tmccullough\dev\PingPong\project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\tmccullough\dev\PingPong\project, returning: (pingpong-build)
+Loading project definition from C:\Users\tmccullough\dev\PingPong\project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@11df4a7, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory C:\Users\tmccullough\dev\PingPong
+[Loading] Found non-root projects 
+[Loading] Done in C:\Users\tmccullough\dev\PingPong, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\Users\tmccullough\dev\PingPong, returning: (pingpong)
+Set current project to akka-ping-pong (in build file:/C:/Users/tmccullough/dev/PingPong/)
+Reapplying settings...
+Set current project to akka-ping-pong (in build file:/C:/Users/tmccullough/dev/PingPong/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/C:/Users/tmccullough/dev/PingPong/}pingpong/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@92b69, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed Feb 21, 2017 10:04:13 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/tmccullough/dev/PingPong/}pingpong/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@5b65a1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Feb 21, 2017 10:04:13 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/tmccullough/dev/PingPong/}pingpong/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@11095e2, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Feb 21, 2017 10:04:14 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/tmccullough/dev/PingPong/}pingpong/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@e59624, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Feb 21, 2017 10:04:14 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@60a91f, check cycles: false
+
+Initial source changes: 
+	removed:Set(C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\Hello.java)
+	added: Set(C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\Hello.java, C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\Hello.java, C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java)
+
+Recompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to C:\Users\tmccullough\dev\PingPong\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\tmccullough\dev\PingPong\target\scala-2.11\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@9953cf directly...
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java: C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java uses unchecked or unsafe operations.
+C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java: C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java uses unchecked or unsafe operations.
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java: Recompile with -Xlint:unchecked for details.
+C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java: Recompile with -Xlint:unchecked for details.
+Java compilation took 0.670776457 s
+Java analysis took 0.198756958 s
+Java compile + analysis took 0.883411755 s
+Invalidating C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java...
+Invalidating (transitively) by inheritance from C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java...
+Initial set of included nodes: Set(C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java)
+The C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java source file has the following regular definitions changed:
+	notify, JavaPongActor, wait, equals, context, self, receive, preRestart, aroundReceive, akka$actor$Actor$_setter_$self_$eq, postRestart, postStop, notifyAll, aroundPostRestart, emptyBehavior, aroundPreRestart, aroundPostStop, <init>, lambda$receive$1, preStart, unhandled, akka$actor$Actor$_setter_$context_$eq, getContext, sender, toString, getClass, lambda$receive$0, supervisorStrategy, hashCode, aroundPreStart.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java
+Invalidating C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\Hello.java...
+Invalidating (transitively) by inheritance from C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\Hello.java...
+Initial set of included nodes: Set(C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\Hello.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\Hello.java)
+The C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\Hello.java source file has the following regular definitions changed:
+	notify, wait, equals, main, notifyAll, <init>, Hello, toString, getClass, hashCode.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed Feb 21, 2017 10:04:56 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@b90ae9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Feb 21, 2017 10:04:56 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@1b6991, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to C:\Users\tmccullough\dev\PingPong\target\scala-2.11\test-classes...
+Compiling 1 Java source to C:\Users\tmccullough\dev\PingPong\target\scala-2.11\test-classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@1e8298d directly...
+Java compilation took 0.183821892 s
+Java analysis took 0.046456401 s
+Java compile + analysis took 0.239619864 s
+Invalidating C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java...
+Invalidating (transitively) by inheritance from C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java...
+Initial set of included nodes: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java)
+The C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java source file has the following regular definitions changed:
+	notify, wait, HelloTest, equals, testMessage, notifyAll, <init>, toString, getClass, hashCode.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'org.scalatest.tools.Framework' not present.
+Framework implementation 'org.scalatest.tools.ScalaTestFramework' not present.
+Subclass fingerprints: List((junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@13c4b87))
+Annotation fingerprints: List((org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@db2c5), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@1faad30))
+Running TaskDef(com.example.HelloTest, com.novocode.junit.JUnitFingerprint@1faad30, false, [SuiteSelector])
+Summary for JUnit not available.
+Read from stdout: Passed: Total 1, Failed 0, Errors 0, Passed 1
+Passed: Total 1, Failed 0, Errors 0, Passed 1
+Passed tests:
+	com.example.HelloTest
+Total time: 1 s, completed Feb 21, 2017 10:04:58 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1c8a7e7, check cycles: false
+
+Initial source changes: 
+	removed:Set(C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java)
+	added: Set(C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java, C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java, C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java)
+
+Recompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to C:\Users\tmccullough\dev\PingPong\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\tmccullough\dev\PingPong\target\scala-2.11\classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@7bd48b directly...
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java: C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java uses unchecked or unsafe operations.
+C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java: C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java uses unchecked or unsafe operations.
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java: Recompile with -Xlint:unchecked for details.
+C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java: Recompile with -Xlint:unchecked for details.
+Java compilation took 0.375397703 s
+Java analysis took 0.053058066 s
+Java compile + analysis took 0.43871551 s
+Invalidating C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java...
+Invalidating (transitively) by inheritance from C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java...
+Initial set of included nodes: Set(C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java)
+The C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java source file has the following regular definitions changed:
+	notify, JavaPongActor, wait, equals, context, self, receive, preRestart, aroundReceive, akka$actor$Actor$_setter_$self_$eq, postRestart, postStop, notifyAll, aroundPostRestart, emptyBehavior, aroundPreRestart, aroundPostStop, <init>, lambda$receive$1, preStart, unhandled, akka$actor$Actor$_setter_$context_$eq, getContext, sender, toString, getClass, lambda$receive$0, supervisorStrategy, hashCode, aroundPreStart.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\tmccullough\dev\PingPong\src\main\java\pong\JavaPongActor.java
+Invalidating C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java...
+Invalidating (transitively) by inheritance from C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java...
+Initial set of included nodes: Set(C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java)
+The C:\Users\tmccullough\dev\PingPong\src\main\java\com\example\JavaPongActor.java source file has the following regular definitions changed:
+	notify, JavaPongActor, wait, equals, context, self, receive, preRestart, aroundReceive, akka$actor$Actor$_setter_$self_$eq, postRestart, postStop, notifyAll, aroundPostRestart, emptyBehavior, aroundPreRestart, aroundPostStop, <init>, lambda$receive$1, preStart, unhandled, akka$actor$Actor$_setter_$context_$eq, getContext, sender, toString, getClass, lambda$receive$0, supervisorStrategy, hashCode, aroundPreStart.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 1 s, completed Feb 21, 2017 10:05:04 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@1e5f74e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'org.scalatest.tools.Framework' not present.
+Framework implementation 'org.scalatest.tools.ScalaTestFramework' not present.
+Subclass fingerprints: List((junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@1862de1))
+Annotation fingerprints: List((org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@bd69b7), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@101fea9))
+Running TaskDef(com.example.HelloTest, com.novocode.junit.JUnitFingerprint@101fea9, false, [SuiteSelector])
+Summary for JUnit not available.
+Read from stdout: Passed: Total 1, Failed 0, Errors 0, Passed 1
+Passed: Total 1, Failed 0, Errors 0, Passed 1
+Passed tests:
+	com.example.HelloTest
+Total time: 1 s, completed Feb 21, 2017 10:05:05 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@655529, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Feb 21, 2017 10:05:05 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@13b0d47, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'org.scalatest.tools.Framework' not present.
+Framework implementation 'org.scalatest.tools.ScalaTestFramework' not present.
+Subclass fingerprints: List((junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@e8e8f6))
+Annotation fingerprints: List((org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@1dd9d51), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@106dee))
+Running TaskDef(com.example.HelloTest, com.novocode.junit.JUnitFingerprint@106dee, false, [SuiteSelector])
+Summary for JUnit not available.
+Read from stdout: Passed: Total 1, Failed 0, Errors 0, Passed 1
+Passed: Total 1, Failed 0, Errors 0, Passed 1
+Passed tests:
+	com.example.HelloTest
+Total time: 1 s, completed Feb 21, 2017 10:05:06 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1d4f3f4, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 2 s, completed Feb 21, 2017 10:05:42 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@73abca, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Feb 21, 2017 10:05:42 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@3a0b35, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set(C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java)
+	added: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java, C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java, C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java)
+
+Recompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to C:\Users\tmccullough\dev\PingPong\target\scala-2.11\test-classes...
+Compiling 1 Java source to C:\Users\tmccullough\dev\PingPong\target\scala-2.11\test-classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@151e7b directly...
+Java compilation took 0.108322347 s
+Java analysis took 0.029486046 s
+Java compile + analysis took 0.148015237 s
+Invalidating C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java...
+Invalidating (transitively) by inheritance from C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java...
+Initial set of included nodes: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java)
+The C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java source file has the following regular definitions changed:
+	notify, wait, HelloTest, equals, testMessage, notifyAll, <init>, toString, getClass, hashCode.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java
+Invalidating C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java...
+Invalidating (transitively) by inheritance from C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java...
+Initial set of included nodes: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java)
+The C:\Users\tmccullough\dev\PingPong\src\test\java\com\example\HelloTest.java source file has the following regular definitions changed:
+	notify, wait, HelloTest, equals, testMessage, notifyAll, <init>, toString, getClass, hashCode.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	
+Framework implementation 'org.scalacheck.ScalaCheckFramework' not present.
+Framework implementation 'org.specs2.runner.Specs2Framework' not present.
+Framework implementation 'org.specs2.runner.SpecsFramework' not present.
+Framework implementation 'org.specs.runner.SpecsFramework' not present.
+Framework implementation 'org.scalatest.tools.Framework' not present.
+Framework implementation 'org.scalatest.tools.ScalaTestFramework' not present.
+Subclass fingerprints: List((junit.framework.TestCase,false,com.novocode.junit.JUnit3Fingerprint@19eb063))
+Annotation fingerprints: List((org.junit.runner.RunWith,false,com.novocode.junit.RunWithFingerprint@4e75bb), (org.junit.Test,false,com.novocode.junit.JUnitFingerprint@cc54f0))
+Running TaskDef(com.example.HelloTest, com.novocode.junit.JUnitFingerprint@cc54f0, false, [SuiteSelector])
+Summary for JUnit not available.
+Read from stdout: Passed: Total 1, Failed 0, Errors 0, Passed 1
+Passed: Total 1, Failed 0, Errors 0, Passed 1
+Passed tests:
+	com.example.HelloTest
+Total time: 1 s, completed Feb 21, 2017 10:05:43 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@172ba27, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Feb 21, 2017 10:06:02 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@43288, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java)
+
+Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to C:\Users\tmccullough\dev\PingPong\target\scala-2.11\test-classes...
+Compiling 1 Java source to C:\Users\tmccullough\dev\PingPong\target\scala-2.11\test-classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@1a10dcf directly...
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java:18: class PongActorTest is public, should be declared in a file named PongActorTest.java
+C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java:18: class PongActorTest is public, should be declared in a file named PongActorTest.java
+Read from stdout: public class PongActorTest {
+Read from stdout: ActorSystem system = ActorSystem.create();
+Read from stdout: ActorRef actorRef =
+Read from stdout: system.actorOf(Props.create(JavaPongActor.class), "BruceWillis");
+Read from stdout: 
+Read from stdout: @Test
+Read from stdout: public void shouldReplyToPingWithPong() throws Exception {
+Read from stdout: Future sFuture = ask(actorRef, "Ping", 1000);
+Read from stdout: final CompletionStage<String> cs = toJava(sFuture);
+Read from stdout: final CompletableFuture<String> jFuture = (CompletableFuture<String>) cs;
+Read from stdout: assertEquals("Pong", jFuture.get(1000, TimeUnit.MILLISECONDS));
+Read from stdout: }
+Read from stdout: 
+Read from stdout: @Test(expected = ExecutionException.class)
+Read from stdout: public void shouldReplyToUnknownMessageWithFailure() throws Exception {
+Read from stdout: Future sFuture = ask(actorRef, "unknown", 1000);
+Read from stdout: final CompletionStage<String> cs = toJava(sFuture);
+Read from stdout: final CompletableFuture<String> jFuture = (CompletableFuture<String>) cs;
+Read from stdout: jFuture.get(1000, TimeUnit.MILLISECONDS);
+Read from stdout: }
+Read from stdout: 
+Read from stdout: //Future Examples
+Read from stdout: @Test
+Read from stdout: public void shouldPrintToConsole() throws Exception {
+Read from stdout: askPong("Ping").thenAccept(x -> System.out.println("replied with: " + x));
+Read from stdout: Thread.sleep(100);
+Read from stdout: //no assertion - just prints to console. Try to complete a CompletableFuture instead.
+Read from stdout: }
+Read from stdout: 
+Read from stdout: @Test
+Read from stdout: public void shouldTransform() throws Exception {
+Read from stdout: char result = (char) get(askPong("Ping").thenApply(x -> x.charAt(0)));
+Read from stdout: assertEquals('P', result);
+Read from stdout: }
+Read from stdout: 
+Read from stdout: /**
+Read from stdout: * There is was a bug with the scala-java8-compat library 0.3.0 - thenCompose throws exception
+Read from stdout: * https://github.com/scala/scala-java8-compat/issues/26
+Read from stdout: *
+Read from stdout: * I confirmed fixed in 0.6.0-SNAPSHOT (10 months later). Just in time for publishing!
+Read from stdout: */
+Read from stdout: @Test
+Read from stdout: public void shouldTransformAsync() throws Exception {
+Read from stdout: CompletionStage cs = askPong("Ping").
+Read from stdout: thenCompose(x -> askPong("Ping"));
+Read from stdout: assertEquals(get(cs), "Pong");
+Read from stdout: }
+Read from stdout: 
+Read from stdout: @Test
+Read from stdout: public void shouldEffectOnError() throws Exception {
+Read from stdout: askPong("cause error").handle((x, t) -> {
+Read from stdout: if (t != null) {
+Read from stdout: System.out.println("Error: " + t);
+Read from stdout: }
+Read from stdout: return null;
+Read from stdout: });
+Read from stdout: }
+Read from stdout: 
+Read from stdout: @Test
+Read from stdout: public void shouldRecoverOnError() throws Exception {
+Read from stdout: CompletionStage<String> cs = askPong("cause error").exceptionally(t -> {
+Read from stdout: return "default";
+Read from stdout: });
+Read from stdout: 
+Read from stdout: String result = (String) get(cs);
+Read from stdout: }
+Read from stdout: 
+Read from stdout: @Test
+Read from stdout: public void shouldRecoverOnErrorAsync() throws Exception {
+Read from stdout: CompletionStage<String> cf = askPong("cause error")
+Read from stdout: .handle((pong, ex) -> ex == null
+Read from stdout: ? CompletableFuture.completedFuture(pong)
+Read from stdout: : askPong("Ping")
+Read from stdout: ).thenCompose(x -> x);
+Read from stdout: assertEquals("Pong", get(cf));
+Read from stdout: }
+Read from stdout: 
+Read from stdout: @Test
+Read from stdout: public void shouldChainTogetherMultipleOperations() {
+Read from stdout: askPong("Ping").thenCompose(x -> askPong("Ping" + x)).handle((x, t) ->
+Read from stdout: t != null
+Read from stdout: ? "default"
+Read from stdout: : x);
+Read from stdout: }
+Read from stdout: 
+Read from stdout: @Test
+Read from stdout: public void shouldPrintErrorToConsole() throws Exception {
+Read from stdout: askPong("cause error").handle((x, t) -> {
+Read from stdout: if (t != null) {
+Read from stdout: System.out.println("Error: " + t);
+Read from stdout: }
+Read from stdout: return null;
+Read from stdout: });
+Read from stdout: Thread.sleep(100);
+Read from stdout: }
+Read from stdout: 
+Read from stdout: //Helpers
+Read from stdout: public Object get(CompletionStage cs) throws Exception {
+Read from stdout: return ((CompletableFuture<String>) cs).get(1000, TimeUnit.MILLISECONDS);
+Read from stdout: }
+Read from stdout: 
+Read from stdout: public CompletionStage<String> askPong(String message) {
+Read from stdout: Future sFuture = ask(actorRef, message, 1000);
+Read from stdout: final CompletionStage<String> cs = toJava(sFuture);
+Read from stdout: return cs;
+Read from stdout: }
+Read from stdout: }
+public class PongActorTest {
+    ActorSystem system = ActorSystem.create();
+    ActorRef actorRef =
+            system.actorOf(Props.create(JavaPongActor.class), "BruceWillis");
+
+    @Test
+    public void shouldReplyToPingWithPong() throws Exception {
+        Future sFuture = ask(actorRef, "Ping", 1000);
+        final CompletionStage<String> cs = toJava(sFuture);
+        final CompletableFuture<String> jFuture = (CompletableFuture<String>) cs;
+        assertEquals("Pong", jFuture.get(1000, TimeUnit.MILLISECONDS));
+    }
+
+    @Test(expected = ExecutionException.class)
+    public void shouldReplyToUnknownMessageWithFailure() throws Exception {
+        Future sFuture = ask(actorRef, "unknown", 1000);
+        final CompletionStage<String> cs = toJava(sFuture);
+        final CompletableFuture<String> jFuture = (CompletableFuture<String>) cs;
+        jFuture.get(1000, TimeUnit.MILLISECONDS);
+    }
+
+    //Future Examples
+    @Test
+    public void shouldPrintToConsole() throws Exception {
+        askPong("Ping").thenAccept(x -> System.out.println("replied with: " + x));
+        Thread.sleep(100);
+        //no assertion - just prints to console. Try to complete a CompletableFuture instead.
+    }
+
+    @Test
+    public void shouldTransform() throws Exception {
+        char result = (char) get(askPong("Ping").thenApply(x -> x.charAt(0)));
+        assertEquals('P', result);
+    }
+
+    /**
+     * There is was a bug with the scala-java8-compat library 0.3.0 - thenCompose throws exception
+     * https://github.com/scala/scala-java8-compat/issues/26
+     *
+     * I confirmed fixed in 0.6.0-SNAPSHOT (10 months later). Just in time for publishing!
+     */
+    @Test
+    public void shouldTransformAsync() throws Exception {
+        CompletionStage cs = askPong("Ping").
+                thenCompose(x -> askPong("Ping"));
+        assertEquals(get(cs), "Pong");
+    }
+
+    @Test
+    public void shouldEffectOnError() throws Exception {
+        askPong("cause error").handle((x, t) -> {
+            if (t != null) {
+                System.out.println("Error: " + t);
+            }
+            return null;
+        });
+    }
+
+    @Test
+    public void shouldRecoverOnError() throws Exception {
+        CompletionStage<String> cs = askPong("cause error").exceptionally(t -> {
+            return "default";
+        });
+
+        String result = (String) get(cs);
+    }
+
+    @Test
+    public void shouldRecoverOnErrorAsync() throws Exception {
+        CompletionStage<String> cf = askPong("cause error")
+                .handle((pong, ex) -> ex == null
+                        ? CompletableFuture.completedFuture(pong)
+                        : askPong("Ping")
+                ).thenCompose(x -> x);
+        assertEquals("Pong", get(cf));
+    }
+
+    @Test
+    public void shouldChainTogetherMultipleOperations() {
+        askPong("Ping").thenCompose(x -> askPong("Ping" + x)).handle((x, t) ->
+                t != null
+                        ? "default"
+                        : x);
+    }
+
+    @Test
+    public void shouldPrintErrorToConsole() throws Exception {
+        askPong("cause error").handle((x, t) -> {
+            if (t != null) {
+                System.out.println("Error: " + t);
+            }
+            return null;
+        });
+        Thread.sleep(100);
+    }
+
+    //Helpers
+    public Object get(CompletionStage cs) throws Exception {
+        return ((CompletableFuture<String>) cs).get(1000, TimeUnit.MILLISECONDS);
+    }
+
+    public CompletionStage<String> askPong(String message) {
+        Future sFuture = ask(actorRef, message, 1000);
+        final CompletionStage<String> cs = toJava(sFuture);
+        return cs;
+    }
+}
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java:16: package scala.compat.java8 does not exist
+C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java:16: package scala.compat.java8 does not exist
+Read from stdout: scala.compat.java8.FutureConverters
+scala.compat.java8.FutureConverters
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java:26: cannot find symbol
+Read from stdout: symbol:   method toJava(scala.concurrent.Future)
+Read from stdout: location: class pong.PongActorTest
+C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java:26: cannot find symbol
+  symbol:   method toJava(scala.concurrent.Future)
+  location: class pong.PongActorTest
+Read from stdout: toJava
+toJava
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java:34: cannot find symbol
+Read from stdout: symbol:   method toJava(scala.concurrent.Future)
+Read from stdout: location: class pong.PongActorTest
+C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java:34: cannot find symbol
+  symbol:   method toJava(scala.concurrent.Future)
+  location: class pong.PongActorTest
+Read from stdout: toJava
+toJava
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java:121: cannot find symbol
+Read from stdout: symbol:   method toJava(scala.concurrent.Future)
+Read from stdout: location: class pong.PongActorTest
+C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java:121: cannot find symbol
+  symbol:   method toJava(scala.concurrent.Future)
+  location: class pong.PongActorTest
+Read from stdout: toJava
+toJava
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java uses unchecked or unsafe operations.
+C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java uses unchecked or unsafe operations.
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java: Recompile with -Xlint:unchecked for details.
+C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java: Recompile with -Xlint:unchecked for details.
+Read from stdout: (test:compileIncremental) javac returned nonzero exit code
+(test:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Feb 21, 2017 10:06:03 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1feb2cf, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Feb 21, 2017 10:08:20 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> test
+Evaluating tasks: test:test
+Running task... Cancel: sbt.server.ServerTaskCancellation@35aaa6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+
+Initial source changes: 
+	removed:Set(C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java)
+	added: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java, C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\tmccullough\dev\PingPong\src\test\java\pong\HelloTest.java, C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java)
+
+Recompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources
+Read from stdout: Compiling 1 Java source to C:\Users\tmccullough\dev\PingPong\target\scala-2.11\test-classes...
+Compiling 1 Java source to C:\Users\tmccullough\dev\PingPong\target\scala-2.11\test-classes...
+Attempting to call com.sun.tools.javac.api.JavacTool@108708c directly...
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java:16: package scala.compat.java8 does not exist
+C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java:16: package scala.compat.java8 does not exist
+Read from stdout: scala.compat.java8.FutureConverters
+scala.compat.java8.FutureConverters
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java:26: cannot find symbol
+Read from stdout: symbol:   method toJava(scala.concurrent.Future)
+Read from stdout: location: class pong.PongActorTest
+C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java:26: cannot find symbol
+  symbol:   method toJava(scala.concurrent.Future)
+  location: class pong.PongActorTest
+Read from stdout: toJava
+toJava
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java:34: cannot find symbol
+Read from stdout: symbol:   method toJava(scala.concurrent.Future)
+Read from stdout: location: class pong.PongActorTest
+C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java:34: cannot find symbol
+  symbol:   method toJava(scala.concurrent.Future)
+  location: class pong.PongActorTest
+Read from stdout: toJava
+toJava
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java:121: cannot find symbol
+Read from stdout: symbol:   method toJava(scala.concurrent.Future)
+Read from stdout: location: class pong.PongActorTest
+C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java:121: cannot find symbol
+  symbol:   method toJava(scala.concurrent.Future)
+  location: class pong.PongActorTest
+Read from stdout: toJava
+toJava
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java uses unchecked or unsafe operations.
+C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java uses unchecked or unsafe operations.
+Read from stdout: C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java: Recompile with -Xlint:unchecked for details.
+C:\Users\tmccullough\dev\PingPong\src\test\java\pong\PongActorTest.java: Recompile with -Xlint:unchecked for details.
+Read from stdout: (test:compileIncremental) javac returned nonzero exit code
+(test:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Feb 21, 2017 10:08:21 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 10264@TMCCULLOUGH450 logs at Tue Feb 21 10:10:27 GMT 2017, goodbye.
